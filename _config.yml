@@ -9,14 +9,14 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Z3ncrypt3dBu9 # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: z3nbu9 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -26,23 +26,23 @@ description: >- # used by seo meta and the atom feed
 url: "https:/n220556.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: n220556 # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+# twitter:
+#   username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Z3ncrypt3dBu9
+  email: z3ncrypt3dbu9@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/n220556 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/raj-kumar-pentester
 
 # Site Verification Settings
 webmaster_verifications:
@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "writeups"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -161,7 +161,7 @@ kramdown:
     css_class: highlight
     # default_lang: console
     span:
-      line_numbers: false
+      line_numbers:222409926?s=400&u=13f1f2c8f8f8b39fc2fb40aec4a20a253746776a&v=4 false
     block:
       line_numbers: true
       start_line: 1
