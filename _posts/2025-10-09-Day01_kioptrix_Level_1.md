@@ -7,19 +7,21 @@ tags: [Vlunhub, 100Days, day1, kioptrix_Level_1]
 ---
 
 
-# Kioptrix Level 1 writeup
+# Kioptrix Level 1 writeup ✍️
+
+--- 
 
 ## Challenge Description
 
-- Name: Kioptrix: Level 1 (#1)
-- Date release: 17 Feb 2010
-- Author: Kioptrix
-- Series: Kioptrix
+Name: Kioptrix: Level 1 (#1) <br>
+Date release: 17 Feb 2010 <br>
+Author: Kioptrix <br>
+Series: Kioptrix <br>
 
 ### Description
 This Kioptrix VM Image are **easy** challenges. The object of the game is to **acquire root access** via any means possible (except actually hacking the VM server or player). The purpose of these games are to **learn** the **basic tools and techniques in vulnerability assessment and exploitation**. There are **more ways** then one to successfully complete the challenges.
 
-Task File Download from here 👉[Kioptrix Level 1]( https://download.vulnhub.com/kioptrix/Kioptrix_Level_1.rar)
+Task File Download from here 👉 [Kioptrix Level 1]( https://download.vulnhub.com/kioptrix/Kioptrix_Level_1.rar)
 
 ### File Information
 - Filename: Kioptrix_Level_1.rar
@@ -31,16 +33,20 @@ Task File Download from here 👉[Kioptrix Level 1]( https://download.vulnhub.co
 
 ### Virtual Machine
 
-- Format: Virtual Machine (VMware)
-- Operating System: Linux
+Format: Virtual Machine (VMware) <br>
+Operating System: Linux
 
+---
 
 ## Points I have Learned
 
 - Network Discovery using Nmap
+  - `-sn` : finds host up or not
 - Scaning Target using Zenmap
 - Using Metaspolit To Exploit
 - Maintaining Access
+
+--- 
 
 ## Step By Step Process
 
@@ -50,11 +56,11 @@ Task File Download from here 👉[Kioptrix Level 1]( https://download.vulnhub.co
 ```bash
 unrar x Kioptrix_Level_1.rar
 ```
-- Go To VMware File ➡️ open ➡️ Select `.vmx` file ➡️ Poweron the Machine
+Go To VMware File ➡️ open ➡️ Select `.vmx` file ➡️ Poweron the Machine
 
 ### Step 2: Finding Target IP address
 
-- Target is Living on our Network so, scan our Network to Find Target
+Target is Living on our Network so, scan our Network to Find Target
 
 #### Step 2.1: Finding Which is our Network
 
@@ -111,7 +117,6 @@ output:
 search Samba
 ```
 - there are several exploits i selected **69** exploit.
-
 ```bash
 use exploit/linux/samba/trans2open
 ```
@@ -164,7 +169,6 @@ passwd
 #### Step 5.1: Future Porpose
 
 - login Target Machine Manually with `root` credentials
-
 ```bash
 adduser new
 ```
@@ -183,6 +187,10 @@ passwd new
 ```bash
 cat /etc/shadow
 ```
-![shadow](/posts/Vlunhub/100Days/Day01_Kioptrix_Level_1/etc#shadow.png)
 
-- Successfully Completed Task.
+![shadow](/posts/Vlunhub/100Days/Day01_Kioptrix_Level_1/etc!shadow.png)
+
+
+--- 
+
+🚀 Successfully Completed Task.
